@@ -2,7 +2,7 @@
 #  code.
 
 def file_copy(src, dest):
-    with open(src) as f, open(dest,'w') as d:
+    with open(src, "r") as f, open(dest,'w') as d:
             for line in f:
                  d.write(line)
                  
